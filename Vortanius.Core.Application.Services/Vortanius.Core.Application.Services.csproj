@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vortanius.Core.Application.Interfaces\Vortanius.Core.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Vortanius.Core.Domain.Entities\Vortanius.Core.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Vortanius.Core.Interfaces\Vortanius.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Vortanius.Core.Domain.Interfaces\Vortanius.Core.Domain.Interfaces.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
